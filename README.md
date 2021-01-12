@@ -8,3 +8,5 @@ Uses QtWebSocket for network communication
 
 * Chat log on connect
 * Server-assigned colors
+* Chat commands
+* Log saving
