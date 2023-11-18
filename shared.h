@@ -26,6 +26,7 @@ namespace Shared { //TODO: Figure out why namespacing packets.h doesn't work
         // QDataStream operator overloads
         friend QDataStream &operator<<(QDataStream &out, const UserInfo &userInfo);
         friend QDataStream &operator>>(QDataStream &in, UserInfo &userInfo);
+        friend bool operator==(UserInfo &lhs, const UserInfo &rhs);
         // qDebug operator overload (QString()-trick)
         operator QString() const { return "Username: " + m_userName + " (" + QString::number(m_color) + ")";}
         QString m_userName;

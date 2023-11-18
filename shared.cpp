@@ -42,6 +42,9 @@ namespace Shared{
         in >> userInfo.m_userName >> userInfo.m_color;
         return in;
     }
+    bool operator==(UserInfo &lhs, const UserInfo &rhs) {
+        return true;
+    }
 
     QPair<UserInfo, QString> MakeUserMessagePair(UserInfo userInfo, QString message)
     {

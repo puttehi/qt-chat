@@ -16,16 +16,16 @@ SOURCES += \
     keyeventtextedit.cpp \
     main.cpp \
     packets.cpp \
-    server.cpp \
-    shared.cpp
+    shared.cpp \
+    server.cpp
 
 HEADERS += \
     chatwindow.h \
     connectwindow.h \
     keyeventtextedit.h \
     packets.h \
-    server.h \
-    shared.h
+    shared.h \
+    server.h
 
 FORMS += \
     chatwindow.ui \
